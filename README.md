@@ -48,8 +48,8 @@ To run the app, type 'node app/server.js' from within the root folder, then navi
 Troubleshooting 'express not found': Type 'npm install express' - bower may not install this currently.
 
 
-Running grunt smart
-===================
+Running grunt
+=============
 
 Make a change in 'app/_styles/*.scss' and save the file - grunt watch will compile sass to css, lint, and run tests.
 
