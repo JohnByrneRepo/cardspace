@@ -296,7 +296,7 @@ $ karma start
 License
 ----
 
-Commercial ©Trailfinders 2015
+Open source ©2015
 
 
 **Commercial Software, All rights reserved**
