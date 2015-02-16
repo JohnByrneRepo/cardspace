@@ -63,4 +63,4 @@ Type 'grunt test' to run all unit tests.
 Viewing the existing development build online
 =============================================
 
-Visit http://johnbyrne.info/cardspace/ for the latest dev deployment.
+TBA
