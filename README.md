@@ -1,7 +1,7 @@
 card space!
 ===================
 
-Repository for the development of Cardfocus MEAN web app.
+Repository for the development of Cardspace MEAN web app.
 
 
 Installation requirements for cli tools workflow
