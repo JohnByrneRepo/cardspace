@@ -212,7 +212,7 @@ Directives should be reusable components, not application specific, e.g. data ta
 a sorting function.  The application uses Bootstrap components in favor of directives
 where possible.
 
-When A directive is used, the contoller is specified in the template not the state provider.
+When a directive is used, the contoller is specified in the template not the state provider.
 
 
 ### Controller communication
