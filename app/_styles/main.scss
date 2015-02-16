@@ -1,0 +1,28 @@
+// variables
+
+$baseLineHeight: 20px;
+$baseLineWidth: 20px;
+$fontSizeSmall: 16px;
+$fontSizeMedium: 28px;
+$fontSizeLarge: 32px;
+$fontSizeHeading: 36px;
+
+// imports
+
+@import './index.scss';
+
+@import '../header-index/header-index.scss';
+@import '../header-main/header-main.scss';
+
+@import '../home/home.scss';
+
+@import '../profile/profile.scss';
+@import '../sidebar-profile/sidebar-profile.scss';
+
+@import '../maps/maps.scss';
+
+@import '../design/design.scss';
+@import '../sidebar-design/sidebar-design.scss';
+
+// bower:scss
+// endbower

@@ -1,0 +1,30 @@
+<!-- /* #partial: app/sidebar-profile/sidebar-profile.tpl.html */ -->
+<div class="sidebar-profile-header"></div>
+<div class="sidebar-profile-tpl-container">
+  <div class="sidebar-profile-image">
+    <icon class="fa fa-user"></icon>
+  </div>
+  <div class="sidebar-profile-info">
+    <div class="sidebar-profile-user">
+      {{loggedInUser.firstName}} {{loggedInUser.lastName}}
+    </div>
+    <div class="sidebar-profile-sidebarname">{{loggedInUser.profileName}}</div>
+    <div class="sidebar-profile-biography">{{loggedInUser.biography}}</div>
+  </div>
+  <div class="sidebar-profile-discover">
+    <h4 class="sidebar-profile-panel-header">Discover groups</h4>
+    <div ng-repeat="group in groups">
+      <ul class="discover-list">
+        <li class="discover-list-image">
+          <icon class="fa fa-user"></icon>
+        </li>
+        <li class="discover-list-info">
+          <span>{{group.groupName}}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="sidebar-profile-popular">
+    <h4 class="sidebar-profile-panel-header">Popular</h4>
+  </div>
+</div>

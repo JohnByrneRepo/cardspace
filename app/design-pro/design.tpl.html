@@ -1,0 +1,48 @@
+<!-- /* #partial: app/design/design.tpl.html */ -->
+<div class="design-tpl-container">
+  <div class="row">
+    <div class="col-md-3">
+      <div id="accordion">
+        <div class="accordion-item" ng-repeat="option in campaignDesignConfigOptions">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{option.configOption}}">
+            <div class="accordion-heading">
+              <h4 class="accordion-title">
+                    {{option.configOption}}
+              </h4>
+            </div>
+          </a>
+          <div id="collapse{{option.configOption}}" class="accordion-content collapse">
+              <div class="panel-body">
+                  {{option.configOptionInfo}}
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #directive: app/_components/directives/vendor/directive.draganddrop.js -->
+    <div class="col-md-6">
+      <div id="offer-container"
+           drop="onDrop($data, $event)"
+           drop-effect="copy"
+           drop-accept="'json/offer-item'"
+           drag-over="onDragOver($event)"
+           drag-over-class="drag-over-accept">
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div id="offer-components">
+        <h4>
+          <i id="icon-bars" class="fa fa-bars"></i>Components
+        </h4>
+        <div id="draggable-image"
+             draggable="true"
+             effect-allowed="copy"
+             draggable-type="offer-item"
+             draggable-data="{foo: 'bar'}">
+          <i id="icon-image" class="fa fa-file-image-o"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

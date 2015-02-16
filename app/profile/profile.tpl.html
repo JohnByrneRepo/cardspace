@@ -1,0 +1,43 @@
+<!-- /* #partial: app/profile/profile.tpl.html */ -->
+<div class="profile-tpl-container">
+  <ul class="profile-header">
+    <li class="profile-link profile-link-active">
+      <a ui-sref="maps">UPDATES</a><br>
+      <a ui-sref="maps" class="stat">150</a>
+    </li>
+    <li class="profile-link">
+      <a ui-sref="design">CARDS</a><br>
+      <a ui-sref="design" class="stat">3</a>
+    </li>
+    <li class="profile-link">
+      <a ui-sref="profile">LOCATIONS</a><br>
+      <a ui-sref="maps" class="stat">4</a>
+    </li>
+    <li class="profile-link">
+      <a ui-sref="profile">FOLLOWERS</a><br>
+      <a ui-sref="maps" class="stat">250</a>
+    </li>
+    <li class="profile-link">
+      <a ui-sref="profile">FAVOURITES</a><br>
+      <a ui-sref="maps" class="stat">12</a>
+    </li>
+  </ul>
+
+  <div class="post-container">
+    <div ng-repeat="post in posts">
+      <div class="post">
+        <ul class="post-list">
+          <li class="post-list-image">
+            <icon class="fa fa-user"></icon>
+          </li>
+          <li class="post-list-name">
+            <span>{{post.profileName}}</span>
+          </li>
+        </ul>
+        <div class="post-text">
+          {{post.text}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,615 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\000031}}
+.main {
+  height: 780px;
+  background-color: #f4f4f9;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\000037}}
+.sidebar {
+  height: 780px;
+  background-color: #f4f4f9;
+  z-index: 1;
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\0000314}}
+.cs-container {
+  padding: 0;
+}
+
+/* Space out content a bit */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\0000319}}
+body {
+  font-family: 'Raleway', Arial, Sans-Serif !important;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\0000325}}
+  .logo {
+    left: 38px !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\0000328}}
+  .login-text {
+    padding-left: 80px !important;
+  }
+}
+@media screen and (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\0000334}}
+  .login-site-info {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\0000340}}
+  .login-forms {
+    left: 10% !important;
+  }
+}
+/* Responsive: Portrait tablets and up */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-index\/header-index\.scss}line{font-family:\000032}}
+.header-index-tpl-container {
+  height: 50px;
+  /* Make the masthead heading the same height as the navigation */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-index\/header-index\.scss}line{font-family:\000036}}
+.header-index-tpl-container h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-index\/header-index\.scss}line{font-family:\0000312}}
+.header-index-tpl-container .nav-primary {
+  position: absolute;
+  background: white;
+  width: 100%;
+  top: 0;
+  box-shadow: 0px 1px #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-index\/header-index\.scss}line{font-family:\0000319}}
+.header-index-tpl-container .nav-primary .logo {
+  font-size: 38px;
+  color: #428bca;
+  padding-left: 0px;
+  position: relative;
+  left: 80px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-main\/header-main\.scss}line{font-family:\000032}}
+.header-main-tpl-container {
+  display: block;
+  height: 250px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-main\/header-main\.scss}line{font-family:\000037}}
+.header-main-tpl-container .nav-primary {
+  height: 28px;
+  padding-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-main\/header-main\.scss}line{font-family:\0000312}}
+.header-main-tpl-container ul {
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-main\/header-main\.scss}line{font-family:\0000314}}
+.header-main-tpl-container ul li {
+  float: left;
+  color: #428bca;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-main\/header-main\.scss}line{font-family:\0000318}}
+.header-main-tpl-container ul li i {
+  font-size: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-main\/header-main\.scss}line{font-family:\0000324}}
+.header-main-tpl-container .link-list {
+  padding: 0;
+  margin-right: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-main\/header-main\.scss}line{font-family:\0000329}}
+.header-main-tpl-container li {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-main\/header-main\.scss}line{font-family:\0000330}}
+.header-main-tpl-container li i {
+  margin-right: 5px;
+  padding-top: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-main\/header-main\.scss}line{font-family:\0000335}}
+.header-main-tpl-container li a {
+  margin-right: 40px;
+  position: relative;
+  top: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-main\/header-main\.scss}line{font-family:\0000340}}
+.header-main-tpl-container li a:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/header-main\/header-main\.scss}line{font-family:\0000345}}
+.header-main-tpl-container .cover {
+  background: url("../_photos/bg5.png") no-repeat center center fixed !important;
+  height: 250px !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/home\/home\.scss}line{font-family:\000032}}
+.home-tpl-container {
+  width: 100%;
+  height: 100%;
+  background: url("../_photos/bg2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/home\/home\.scss}line{font-family:\0000311}}
+.home-tpl-container .login-text {
+  padding-left: 140px;
+  padding-top: 66px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/home\/home\.scss}line{font-family:\0000314}}
+.home-tpl-container .login-text .login-welcome {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/home\/home\.scss}line{font-family:\0000317}}
+.home-tpl-container .login-text .login-site-info {
+  padding-top: 20px;
+  width: 420px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/home\/home\.scss}line{font-family:\0000323}}
+.home-tpl-container .login-forms {
+  position: relative;
+  left: 88px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/home\/home\.scss}line{font-family:\0000328}}
+.home-tpl-container .login-form {
+  padding: 12px;
+  border: 1px solid #eee;
+  background: #fdfdfd;
+  border-radius: 4px;
+  width: 300px;
+  position: relative;
+  top: 70px;
+  height: 130px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/home\/home\.scss}line{font-family:\0000337}}
+.home-tpl-container .login-form .login-form-field {
+  color: #000;
+  width: 275px;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/home\/home\.scss}line{font-family:\0000347}}
+.home-tpl-container .register-form {
+  padding: 12px;
+  border: 1px solid #eee;
+  background: #fdfdfd;
+  border-radius: 4px;
+  width: 300px;
+  position: relative;
+  top: 100px;
+  height: 168px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/home\/home\.scss}line{font-family:\0000356}}
+.home-tpl-container .register-form .register-form-field {
+  color: #000;
+  width: 275px;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/home\/home\.scss}line{font-family:\0000366}}
+.home-tpl-container .dbinfo {
+  color: #444;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/profile\/profile\.scss}line{font-family:\000035}}
+.profile-tpl-container .profile-header {
+  border-bottom: 1px solid #ddd;
+  background: white;
+  padding-top: 12px;
+  padding-left: 4%;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/profile\/profile\.scss}line{font-family:\0000316}}
+.profile-tpl-container .profile-header:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/profile\/profile\.scss}line{font-family:\0000320}}
+.profile-tpl-container li.profile-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  color: #428bca;
+  margin-right: 20px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/profile\/profile\.scss}line{font-family:\0000329}}
+.profile-tpl-container li.profile-link a.stat {
+  font-size: 19px;
+  font-weight: bold;
+  display: inline-block;
+  color: #428bca;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/profile\/profile\.scss}line{font-family:\0000337}}
+.profile-tpl-container li.profile-link a:hover, .profile-tpl-container li.profile-link a.stat:hover {
+  text-decoration: none;
+  color: #428bca;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/profile\/profile\.scss}line{font-family:\0000343}}
+.profile-tpl-container li.profile-link:hover {
+  border-bottom: 5px solid #428bca;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/profile\/profile\.scss}line{font-family:\0000347}}
+.profile-tpl-container li.profile-link-active {
+  border-bottom: 5px solid #428bca;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/profile\/profile\.scss}line{font-family:\0000351}}
+.profile-tpl-container .post-container {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/profile\/profile\.scss}line{font-family:\0000353}}
+.profile-tpl-container .post-container .post {
+  color: #000;
+  font-size: 13px;
+  width: 93%;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  padding: 20px;
+  position: relative;
+  left: 43px;
+  margin-bottom: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/profile\/profile\.scss}line{font-family:\0000366}}
+.profile-tpl-container .post-container .post-list {
+  padding-left: 7px;
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/profile\/profile\.scss}line{font-family:\0000370}}
+.profile-tpl-container .post-container .post-list li {
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/profile\/profile\.scss}line{font-family:\0000373}}
+.profile-tpl-container .post-container .post-list .post-list-image {
+  color: #f2f2f2;
+  font-size: 32px;
+  width: 35px;
+  height: 35px;
+  padding-left: 9px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/profile\/profile\.scss}line{font-family:\0000383}}
+.profile-tpl-container .post-container .post-list .post-list-name {
+  font-size: 14px;
+  position: relative;
+  top: -6px;
+  left: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\000033}}
+.profile-name-bio {
+  color: #428bca;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\000037}}
+.sidebar-profile-header {
+  border-bottom: 1px solid #ddd;
+  background: white;
+  padding: 10px;
+  height: 65px;
+  position: relative;
+  left: -15px;
+  margin-right: -30px;
+  top: 0px;
+  left: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\0000319}}
+.sidebar-profile-tpl-container {
+  position: relative;
+  top: -108px;
+  left: 2px;
+  width: 350px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\0000326}}
+.sidebar-profile-tpl-container .sidebar-profile-image {
+  padding: 10px;
+  color: #f2f2f2;
+  font-size: 109px;
+  width: 135px;
+  height: 142px;
+  padding-left: 24px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\0000336}}
+.sidebar-profile-tpl-container .sidebar-profile-image icon {
+  position: relative;
+  top: -20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\0000342}}
+.sidebar-profile-tpl-container .sidebar-profile-info {
+  color: #428bca;
+  font-size: 140px;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\0000345}}
+.sidebar-profile-tpl-container .sidebar-profile-info icon {
+  position: relative;
+  top: -20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\0000352}}
+.sidebar-profile-tpl-container .sidebar-profile-user {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\0000358}}
+.sidebar-profile-tpl-container .sidebar-profile-sidebarname {
+  color: #428bca;
+  font-size: 13px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\0000364}}
+.sidebar-profile-tpl-container .sidebar-profile-biography {
+  color: #333;
+  font-size: 13px;
+  position: relative;
+  width: 165px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\0000371}}
+.sidebar-profile-tpl-container .sidebar-profile-discover, .sidebar-profile-tpl-container .sidebar-profile-popular {
+  border-radius: 4px;
+  border: 1px solid #eee;
+  background: #fff;
+  color: #191919;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\0000381}}
+.sidebar-profile-tpl-container .sidebar-profile-panel-header {
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: -13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\0000388}}
+.sidebar-profile-tpl-container .discover-list {
+  padding-left: 7px;
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\0000392}}
+.sidebar-profile-tpl-container .discover-list li {
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\0000395}}
+.sidebar-profile-tpl-container .discover-list .discover-list-image {
+  color: #f2f2f2;
+  font-size: 32px;
+  width: 35px;
+  height: 35px;
+  padding-left: 9px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-profile\/sidebar-profile\.scss}line{font-family:\00003105}}
+.sidebar-profile-tpl-container .discover-list .discover-list-info {
+  font-size: 14px;
+  position: relative;
+  top: -6px;
+  left: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/maps\/maps\.scss}line{font-family:\000033}}
+.maps-tpl-container .leaflet-container {
+  height: 300px;
+  width: 50%;
+  left: 20%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/maps\/maps\.scss}line{font-family:\000038}}
+.maps-tpl-container .leaflet-control-attribution {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/design\/design\.scss}line{font-family:\000034}}
+.design-tpl-container .design-header {
+  border-bottom: 1px solid #ddd;
+  background: white;
+  padding: 10px;
+  padding-left: 4%;
+  width: 100%;
+  height: 65px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/design\/design\.scss}line{font-family:\0000316}}
+.design-tpl-container .design-header:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/design\/design\.scss}line{font-family:\0000320}}
+.design-tpl-container li.design-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  color: #428bca;
+  margin-right: 20px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/design\/design\.scss}line{font-family:\0000328}}
+.design-tpl-container li.design-link a.stat {
+  font-size: 19px;
+  font-weight: bold;
+  display: inline-block;
+  color: #428bca;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/design\/design\.scss}line{font-family:\0000336}}
+.design-tpl-container li.design-link a:hover, .design-tpl-container li.design-link a.stat:hover {
+  text-decoration: none;
+  color: #428bca;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/design\/design\.scss}line{font-family:\0000343}}
+.design-tpl-container div#design-container {
+  height: 215px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  width: 410px;
+  position: relative;
+  top: 17px;
+  left: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/design\/design\.scss}line{font-family:\0000354}}
+.design-tpl-container div#design-components i#icon-bars {
+  padding-right: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/design\/design\.scss}line{font-family:\0000357}}
+.design-tpl-container div#design-components i#icon-image {
+  content: '\e08c';
+  font-size: 27px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/design\/design\.scss}line{font-family:\0000363}}
+.design-tpl-container .canvas-item {
+  font-size: 50px;
+  color: #428bca;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\000033}}
+.profile-name-bio {
+  color: #428bca;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\000037}}
+.sidebar-design-header {
+  border-bottom: 1px solid #ddd;
+  background: white;
+  padding: 10px;
+  height: 65px;
+  position: relative;
+  left: -15px;
+  margin-right: -30px;
+  top: 0px;
+  left: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\0000319}}
+.sidebar-design-tpl-container {
+  position: relative;
+  top: -108px;
+  left: 2px;
+  width: 350px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\0000326}}
+.sidebar-design-tpl-container .sidebar-design-image {
+  padding: 10px;
+  color: #f2f2f2;
+  font-size: 109px;
+  width: 135px;
+  height: 142px;
+  padding-left: 24px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\0000336}}
+.sidebar-design-tpl-container .sidebar-design-image icon {
+  position: relative;
+  top: -20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\0000342}}
+.sidebar-design-tpl-container .sidebar-design-info {
+  color: #428bca;
+  font-size: 140px;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\0000345}}
+.sidebar-design-tpl-container .sidebar-design-info icon {
+  position: relative;
+  top: -20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\0000352}}
+.sidebar-design-tpl-container .sidebar-design-user {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\0000358}}
+.sidebar-design-tpl-container .sidebar-design-sidebarname {
+  color: #428bca;
+  font-size: 13px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\0000364}}
+.sidebar-design-tpl-container .sidebar-design-biography {
+  color: #333;
+  font-size: 13px;
+  position: relative;
+  width: 165px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\0000371}}
+.sidebar-design-tpl-container .sidebar-design-widgets {
+  height: 195px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\0000375}}
+.sidebar-design-tpl-container .sidebar-design-widgets, .sidebar-design-tpl-container .sidebar-design-layers {
+  border-radius: 4px;
+  border: 1px solid #eee;
+  background: #fff;
+  color: #191919;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\0000385}}
+.sidebar-design-tpl-container .sidebar-design-panel-header {
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: -13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\0000392}}
+.sidebar-design-tpl-container .widget {
+  float: left;
+  /*width: 25%;*/
+  position: relative;
+  top: -13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\0000399}}
+.sidebar-design-tpl-container .widgets-list {
+  padding-left: 7px;
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\00003104}}
+.sidebar-design-tpl-container .widgets-list li {
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\00003108}}
+.sidebar-design-tpl-container .widgets-list .widgets-list-image {
+  text-align: center;
+  color: #428bca;
+  font-size: 32px;
+  height: 49px;
+  padding: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\00003115}}
+.sidebar-design-tpl-container .widgets-list .widgets-list-name {
+  text-align: center;
+  color: #428bca;
+  font-size: 14px;
+  position: relative;
+  top: -6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/sidebar-design\/sidebar-design\.scss}line{font-family:\00003124}}
+.sidebar-design-tpl-container .draggable-component {
+  text-align: center;
+  display: block;
+  width: 80px;
+  height: 70px;
+  float: left;
+}

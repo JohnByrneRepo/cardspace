@@ -1,0 +1,41 @@
+<!-- /* #partial: app/design/design.tpl.html */ -->
+<div class="design-tpl-container">
+  <ul class="design-header">
+    <li class="design-link">
+      <a ui-sref="maps">EDIT</a><br>
+    </li>
+    <li class="design-link">
+      <a ui-sref="design">NEW</a><br>
+    </li>
+    <li class="design-link">
+      <a ui-sref="profile">TEMPLATE</a><br>
+    </li>
+    <li class="design-link">
+      <a ui-sref="profile">HELP</a><br>
+    </li>
+  </ul>
+
+  <!-- #directive: app/_components/directives/vendor/directive.draganddrop.js -->
+  <div class="col-md-9">
+    <div id="design-container"
+      drop="onDrop($data, $event)"
+      drop-effect="copy"
+      drop-accept="'json/card-component'"
+      drag-over="onDragOver($event)"
+      drag-over-class="drag-over-accept">
+    </div>
+  </div>
+  <!--
+    <div class="col-md-3">
+      <div id="offer-components">
+        <div id="draggable-image"
+          draggable="true"
+          effect-allowed="copy"
+          draggable-type="offer-item"
+          draggable-data="{foo: 'bar'}">
+          <i id="icon-image" class="fa fa-file-image-o"></i>
+        </div>
+      </div>
+    </div>
+  -->
+</div>

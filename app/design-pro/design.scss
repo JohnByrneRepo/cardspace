@@ -1,0 +1,64 @@
+///* #css: app/design/design.scss */
+.design-tpl-container {
+  div#accordion {
+    .accordion-item {
+      padding-left: 15px;
+      a {
+        .accordion-heading {
+          background-color: #DDD;
+          border-bottom: solid 1px #CCC;
+          border-right: solid 1px #CCC;
+          line-height: 10em;
+          color: #888;
+          padding: 12px;
+          .accordion-title {
+            font-size: 14px;
+            color: #999 !important;
+          }
+          .accordion-title:hover {
+            text-decoration: none;
+          }
+          .accordion-content {
+            background: #EEE;
+          }
+        }
+      }
+    }
+  }
+
+  div#draggable-image {
+    text-align: center;
+    display: block;
+    width: 4em;
+    height: 4em;
+    padding-top: 3px;
+    line-height: 4em;
+    border: solid 2px #CCC;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+    background: #99ccff;
+  }
+
+  div#offer-container {
+    height: 85px;
+    background: #f9f9f9;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+  }
+
+  div#offer-components {
+    i#icon-bars {
+      padding-right: 5px;
+    }
+    i#icon-image {
+      content: '\e08c';
+      font-size: 27px;
+    }
+  }
+}

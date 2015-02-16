@@ -1,0 +1,44 @@
+<!-- /* #partial: app/sidebar-design/sidebar-design.tpl.html */ -->
+<div class="sidebar-design-header"></div>
+<div class="sidebar-design-tpl-container">
+  <div class="sidebar-design-image">
+    <icon class="fa fa-user"></icon>
+  </div>
+  <div class="sidebar-design-info">
+    <div class="sidebar-design-user">
+      {{loggedInUser.firstName}} {{loggedInUser.lastName}}
+    </div>
+    <div class="sidebar-design-sidebarname">{{loggedInUser.profileName}}</div>
+    <div class="sidebar-design-biography">{{loggedInUser.biography}}</div>
+  </div>
+  <div class="sidebar-design-widgets">
+    <h4 class="sidebar-design-panel-header">Components</h4>
+    <div ng-repeat="widget in widgets">
+      <div class="widgets-list">
+
+        <div id="card-components">
+          <div class="draggable-component" id="draggable-{{widget.name}}"
+               draggable="true"
+               effect-allowed="copy"
+               draggable-type="card-component"
+               draggable-data="{'widget': '{{widget.name}}'}">
+            <div class="widget">
+              <div class="widgets-list-image">
+                <icon class="fa fa-{{widget.icon}}"></icon>
+              </div>
+              <div class="widgets-list-name">
+                <span>{{widget.name}}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="sidebar-design-layers">
+    <h4 class="sidebar-design-panel-header">Layers</h4>
+
+    </div>
+  </div>
+</div>

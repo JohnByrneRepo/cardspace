@@ -1,0 +1,39 @@
+<!-- #partial: home/home.tpl.html -->
+<div class="home-tpl-container">
+  <div class="row">
+    <div class="col-md-6 login-text">
+      <h1 class="login-welcome">Welcome to Cardspace.</h1>
+      <h4 class="login-site-info">
+        Connect with your friends — and other fascinating people.
+        Get in-the-moment updates on the things that interest you.
+        And watch events unfold, in real time, from every angle.
+      </h>
+    </div>
+    <div class="col-md-6 login-forms">
+      <div class="login-form">
+        <input class="login-form-field" ng-model="inputEmail" placeholder="Email"><br>
+        <input class="login-form-field" ng-model="inputPassword" placeholder="Password"><br>
+        <button
+          class="btn btn-primary pull-right submit-button"
+          ng-click="checkValid()">
+            Sign in
+        </button>
+      </div>
+      <div class="register-form">
+        <input class="register-form-field" ng-model="registerFullname" placeholder="Full name"><br>
+        <input class="register-form-field" ng-model="registerEmail" placeholder="Email"><br>
+        <input class="register-form-field" ng-model="registerPassword" placeholder="Password"><br>
+        <button
+          class="btn btn-success pull-right submit-button"
+          ng-click="checkValid()">
+            Sign up for Cardspace
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
+<ul class="dbinfo" ng-repeat="user in users">
+  <li>{{user.name}}: {{user.email}} / {{user.password}}</li>
+</ul>
+-->

@@ -1,0 +1,51 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\000031}}
+.main {
+  height: 780px;
+  background-color: #f4f4f9;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\000037}}
+.sidebar {
+  height: 780px;
+  background-color: #f4f4f9;
+  z-index: 1;
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\0000314}}
+.cs-container {
+  padding: 0;
+}
+
+/* Space out content a bit */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\0000319}}
+body {
+  font-family: 'Raleway', Arial, Sans-Serif !important;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\0000325}}
+  .logo {
+    left: 38px !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\0000328}}
+  .login-text {
+    padding-left: 80px !important;
+  }
+}
+@media screen and (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\0000334}}
+  .login-site-info {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnbyrne\/Documents\/cardspace3\/app\/_styles\/index\.scss}line{font-family:\0000340}}
+  .login-forms {
+    left: 10% !important;
+  }
+}
+/* Responsive: Portrait tablets and up */

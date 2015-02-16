@@ -1,0 +1,11 @@
+///* #css: app/maps/maps.scss */
+.maps-tpl-container {
+  .leaflet-container {
+    height: 300px;
+    width: 50%;
+    left: 20%;
+  }
+  .leaflet-control-attribution {
+    display: none;
+  }
+}

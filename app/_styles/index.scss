@@ -1,0 +1,50 @@
+.main {
+  height: 780px;
+  background-color: #f4f4f9;
+  padding: 0;
+}
+
+.sidebar {
+  height: 780px;
+  background-color: #f4f4f9;
+  z-index: 1;
+  display: none;
+}
+
+.cs-container {
+  padding: 0;
+}
+
+/* Space out content a bit */
+body {
+  font-family: 'Raleway', Arial, Sans-Serif !important;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .logo {
+    left: 38px !important;
+  }
+  .login-text {
+    padding-left: 80px !important;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .login-site-info {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .login-forms {
+    left: 10% !important;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .cs-container {
+    //max-width: 730px;
+  }
+}

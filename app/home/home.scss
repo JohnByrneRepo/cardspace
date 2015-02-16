@@ -1,0 +1,70 @@
+///* #css: app/main/main.scss */
+.home-tpl-container {
+  width: 100%;
+  height: 100%;
+  background: url('../_photos/bg2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .login-text {
+    padding-left: 140px;
+    padding-top: 66px;
+    .login-welcome {
+      font-weight: bold;
+    }
+    .login-site-info {
+      padding-top: 20px;
+      width: 420px;
+    }
+  }
+
+  .login-forms {
+    position: relative;
+    left: 88px;
+  }
+
+  .login-form {
+    padding: 12px;
+    border: 1px solid #eee;
+    background: #fdfdfd;
+    border-radius: 4px;
+    width: 300px;
+    position: relative;
+    top: 70px;
+    height: 130px;
+    .login-form-field {
+      color: #000;
+      width: 275px;
+      margin-bottom: 10px;
+    }
+    .submit-button {
+
+    }
+  }
+
+  .register-form {
+    padding: 12px;
+    border: 1px solid #eee;
+    background: #fdfdfd;
+    border-radius: 4px;
+    width: 300px;
+    position: relative;
+    top: 100px;
+    height: 168px;
+    .register-form-field {
+      color: #000;
+      width: 275px;
+      margin-bottom: 10px;
+    }
+    .submit-button {
+
+    }
+  }
+
+  .dbinfo {
+    color: #444;
+  }
+
+}
