@@ -299,7 +299,7 @@ License
 Open source ©2015
 
 
-**Commercial Software, All rights reserved**
+**Open Source Software, MIT License All rights reserved**
 
 [john byrne]:http://johnbyrne.info/
 [node.js]:http://nodejs.org
