@@ -34,10 +34,10 @@ Directory structure:
 |   |   |
 │   │   ├── services
 |   |       |
-│   │       ├── actionDispatcher.service.js
-│   │       ├── mocks.service.js
+│   │       ├── service.actionDispatcher.js
+│   │       ├── service.mocks.js
 │   │       ├── services.module.js
-│   │       ├── utils.service.js
+│   │       ├── service.utils.js
 |   |
 │   ├── main
 |   |   |
@@ -166,10 +166,10 @@ In the _components folder, all resources are organised and named by layer in an 
 |       |
 │       ├── services
 |           |
-│           ├── actionDispatcher.service.js
-│           ├── mocks.service.js
+│           ├── service.actionDispatcher.js
+│           ├── service.mocks.js
 │           ├── services.module.js
-│           ├── utils.service.js
+│           ├── service.utils.js
 |   
 ```
 
