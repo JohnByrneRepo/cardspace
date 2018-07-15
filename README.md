@@ -311,7 +311,6 @@ Open source ©2015
 
 Comments:
 
-*http://johnbyrne.info/*
 html5css3@outlook.com
 
 Installation requirements for cli tools workflow
